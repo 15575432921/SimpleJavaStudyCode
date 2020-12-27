@@ -40,4 +40,15 @@ public class StringTest {
         String s8=s5.intern();//返回得到的s8使用的常量池中已存在的
         System.out.println(s3==s8);
     }
+    @Test
+    public void test3(){
+        String s1="javaee";
+        String s2=s1+"hadoop";
+        String s3="javaeehadoop";
+        System.out.println(s1==s3);
+        final  String s4="javaee";
+        String s5=s4+"hadoop";
+        System.out.println(s5==s3);
+
+    }
 }
