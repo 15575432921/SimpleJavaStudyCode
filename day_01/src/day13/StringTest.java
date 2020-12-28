@@ -31,4 +31,10 @@ public class StringTest {
         String s3=new String(bytes1,"gbk");
         System.out.println(s3);
     }
+    @Test
+    public void test3(){
+        String s1="hello";
+        char s2[]={'h','e','l','l','o'};
+        System.out.println(s1.equals(s2));
+    }
 }

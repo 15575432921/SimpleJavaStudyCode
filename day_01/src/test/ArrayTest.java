@@ -1,8 +1,10 @@
 package test;
 
 public class ArrayTest {
-    public static void main(String[] args) {
-        float [][]a=new float[6][];
-        float []b[]=new float[6][];
+    static int arr[] = new int[5];
+
+    public static void main(String a[]) {
+
+        System.out.println(arr[0]);
     }
-}
+} 

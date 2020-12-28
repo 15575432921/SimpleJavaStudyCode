@@ -16,7 +16,6 @@ public class StringMethodTest {
         System.out.println(s2.trim());
         String s3="helloWorld";
         System.out.println(s1.equalsIgnoreCase(s3));
-
     }
     @Test
     public void test2(){
@@ -50,6 +49,5 @@ public class StringMethodTest {
         String  tel="0571-4534289";
         System.out.println(tel.matches("0571-\\d{7,8}"));
         //split
-
     }
 }
