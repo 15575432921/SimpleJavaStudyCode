@@ -37,4 +37,9 @@ public class StringTest {
         char s2[]={'h','e','l','l','o'};
         System.out.println(s1.equals(s2));
     }
+    @Test
+    public void test4(){
+        String s = "祝你考出好成绩！";
+        System.out.println(s.length());
+    }
 }

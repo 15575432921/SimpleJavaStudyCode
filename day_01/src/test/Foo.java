@@ -1,14 +1,19 @@
 package test;
 
 
+import java.util.HashMap;
+
 public class Foo{
-    public static void main (String[] args){
+    static int x=10 ;
+    static { x+=5 ;}
+    public static void main (String[] args) {
+        System.out.println(x);
 
-        String s = "hello";
-
-        String t = "hello";
-
-        char c[] = {'h','e','l','l','o'} ;
-        System.out.println(t==new String("hello"));
     }
-}
+    static { x/=3 ;}
+
+
+
+    }
+
+
