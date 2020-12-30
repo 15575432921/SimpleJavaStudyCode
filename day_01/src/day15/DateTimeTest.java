@@ -16,7 +16,6 @@ public class DateTimeTest {
         // 格式化： 日期-->字符串
         String format =sdf.format(date);
         System.out.println(format);
-
         SimpleDateFormat sdf1=new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");
         String format1=sdf1.format(date);
         System.out.println(format1);
