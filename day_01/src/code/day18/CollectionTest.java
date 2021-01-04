@@ -25,6 +25,16 @@ public class CollectionTest {
          List<Integer> list1 = Arrays.asList(123, 456);
          System.out.println(list1);
      }
+     @Test
+    public void test2(){
+         ArrayList list = new ArrayList();
+         list.add("add");
+         list.add(1,"hello");
+         list.set(0,"test");
+         System.out.println(list.get(1));
+         list.forEach(System.out::println);
+
+     }
 }
 
 

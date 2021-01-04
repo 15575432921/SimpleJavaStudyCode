@@ -4,7 +4,7 @@ import java.util.Objects;
 
 public class People {
 
-        private  String name;
+        public   String name;
 
         public People(String name) {
             this.name = name;

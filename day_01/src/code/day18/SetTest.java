@@ -51,4 +51,22 @@ public class SetTest {
             System.out.println(s);
         }
     }
+    @Test
+    public void test4(){
+        //jdk9中已经改变
+        HashSet set=new HashSet();
+        People p1= new People("AA");
+        People p2=new People("BB");
+        set.add(p1);
+        set.add(p2);
+        System.out.println(set);
+        p1.name="CC";
+        System.out.println(p1);
+        set.remove(p1);
+        System.out.println(set);
+        set.add(new People("CC"));
+        System.out.println(set);
+        set.add(new People("AA"));
+        System.out.println(set);
+    }
 }
