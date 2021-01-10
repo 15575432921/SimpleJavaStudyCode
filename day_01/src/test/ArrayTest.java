@@ -1,10 +1,15 @@
 package test;
 
 public class ArrayTest {
-    static int arr[] = new int[5];
 
-    public static void main(String a[]) {
 
-        System.out.println(arr[0]);
+
+        public static void main(String args[]) {
+           float t=5.1f;
+           int i=(byte)t;
+
+        }
     }
-} 
+
+
+
