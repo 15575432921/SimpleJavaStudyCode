@@ -24,6 +24,5 @@ public class ObjectInputOutputStreamTest {
         o = ois.readObject();
         System.out.println(o);
         ois.close();
-
     }
 }

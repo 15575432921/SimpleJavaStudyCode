@@ -42,4 +42,37 @@ public class StringTest {
         String s = "祝你考出好成绩！";
         System.out.println(s.length());
     }
+    //String-->基本数据类型、包装类：调用包装类的静态方法：parseXxx(str)
+    //基本数据类型、包装类-->String：调用String重载的valueOf(xxx)
+    @Test
+    public void test5(){
+        String str1="123";
+        int num=Integer.parseInt(str1);
+        Integer num1=Integer.valueOf(str1);
+        System.out.println(num);
+        System.out.println(num1);
+        String str2=String.valueOf(num);
+        System.out.println(str2);
+    }
+    //String -->char[] 调用String的toCharArray()
+    //char[]-->String 调用String的构造器
+    @Test
+    public void test6(){
+        String str1="123";
+        char[] charArray=str1.toCharArray();
+        System.out.println(Arrays.toString(charArray));
+        char arr[]=new char[]{'h','e','l','l','o'};
+        String str2=new String(arr);
+        System.out.println(str2);
+    }
+    //String-->StringBuffer、StringBuilder 调用StringBuffer、StringBuilder的构造器
+    //StringBuffer、StringBuilder-->String 1.调用String的构造器2.StringBuffer、StringBuilder的toString()
+    @Test
+    public void test7(){
+        String str1="123";
+        StringBuilder stringBuilder=new StringBuilder(str1);
+        StringBuffer stringBuffer=new StringBuffer(str1);
+        String str2=stringBuffer.toString();
+        String str3=new String(stringBuffer);
+    }
 }

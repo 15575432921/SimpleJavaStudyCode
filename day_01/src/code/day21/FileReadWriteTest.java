@@ -7,8 +7,8 @@ import java.io.*;
 /**
  * 一、流的分类
  * 1.操作数据
- * 2.数据的流向
- * 3.流的角色
+ *  * 2.数据的流向
+ *  * 3.流的角色
  * 二、流的体系
  */
 public class FileReadWriteTest {

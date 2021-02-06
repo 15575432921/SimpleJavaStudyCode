@@ -18,9 +18,10 @@ public class EnumTest {
         //valueOf(String objName) 返回枚举类中对象名是objName的对象
         Season winter = Season.valueOf("WINTER");
         System.out.println(winter);
-        System.out.println(winter.name());
+        System.out.println(winter.name());//WINTER
         System.out.println(Season.class.getSuperclass());
         winter.show();
+
     }
 }
 
