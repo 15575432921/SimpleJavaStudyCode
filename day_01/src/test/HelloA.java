@@ -1,6 +1,6 @@
 package test;
 
-public class HelloA {
+public  class HelloA {
     public HelloA() {
         System.out.println("A的构造函数");
     }
